@@ -40,7 +40,7 @@ func main() {
 
 	for _, reservation := range result.Reservations {
 		for i, instance := range reservation.Instances {
-			fmt.Println(i, *instance.nothing)
+			fmt.Println(i, *instance)
 		}
 	}
 
